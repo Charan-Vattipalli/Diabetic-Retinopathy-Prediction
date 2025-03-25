@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Diabetic Retinopathy Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Age:</label>
+        <input type="text" name="age" required><br>
+
+        <label>Systolic BP:</label>
+        <input type="text" name="systolic_bp" required><br>
+
+        <label>Diastolic BP:</label>
+        <input type="text" name="diastolic_bp" required><br>
+
+        <label>Cholesterol:</label>
+        <input type="text" name="cholesterol" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
+
