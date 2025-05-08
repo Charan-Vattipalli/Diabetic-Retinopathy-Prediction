@@ -1,10 +1,10 @@
-# Diabetic-Retinopathy-Prediction
+# Diabetic-Retinopathy-Detection
 
 ## 🔹 Project Overview
-This project focuses on predicting diabetic retinopathy in patients based on blood test features using machine learning. Diabetic retinopathy is a severe complication of diabetes that affects the eyes and can lead to vision loss if not detected early. Our goal is to develop a predictive model to assist in early diagnosis and preventive healthcare.
+This project focuses on detecting diabetic retinopathy in patients based on blood test features using machine learning. Diabetic retinopathy is a severe complication of diabetes that affects the eyes and can lead to vision loss if not detected early. Our goal is to develop a predictive model to assist in early diagnosis and preventive healthcare.
 
 ## 🔹 Business Objective
-#### ✔ **Predict** the risk of diabetic retinopathy using medical test data
+#### ✔ **Detect** the risk of diabetic retinopathy using medical test data
 #### ✔ Automate patient screening to assist doctors in decision-making
 #### ✔ Reduce manual diagnosis time and help in early detection
 #### ✔ Improve patient outcomes by enabling timely treatment
